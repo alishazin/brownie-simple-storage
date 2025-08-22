@@ -1,0 +1,7 @@
+# Brownie & Python
+build/
+reports/
+__pycache__/
+.env
+*.pyc
+.cache/
