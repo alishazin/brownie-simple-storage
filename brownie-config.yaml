@@ -1,0 +1,12 @@
+dotenv: .env
+
+networks:
+  sepolia:
+    host: ${WEB3_PROVIDER_URI}
+    chainid: 11155111
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+etherscan:
+  token: ${ETHERSCAN_TOKEN}
